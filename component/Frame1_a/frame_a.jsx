@@ -24,19 +24,20 @@ const Frame_a = () => {
 }
 const styles = StyleSheet.create({
     container: {
+        flex: 1,
+        backgroundColor: '#E5E5E5'
+    },
+    header: {
+        flex: 2,
+    },
+    center: {
+        flex: 1,
+    },
+    center1: {
         flex: 1
     },
-    header:{
-        flex:2,
-    },
-    center:{
-        flex:1,
-    },
-    center1:{
-        flex:1
-    },
-    footer:{
-        flex:1
+    footer: {
+        flex: 1,
     }
 
 })
