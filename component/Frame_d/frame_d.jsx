@@ -29,6 +29,21 @@ export default Frame_d
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#FFFFFF'
+
+    },
+    header: {
+        flex: 1, justifyContent: "center", alignItems: 'center'
+    },
+    main:{
+        flex:2,
+        justifyContent:"center",
+        alignItems:"center",
+        flexDirection:'column'
+    },
+    center:{
+        alignItems:"center",
+        justifyContent:'center'
     }
+
+
 })
