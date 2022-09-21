@@ -8,7 +8,7 @@ import Test from './component/Test/test';
 export default function App() {
   return (
     <View>
-      <Frame_a/>
+      <Frame_b/>
     </View>
   );
 }
